@@ -50,7 +50,7 @@ except ImportError:
     HAS_HEIF = False
 
 # ── Machine-specific paths — edit before use ─────────────────────────────────
-EXIFTOOL = Path(r"D:\Sapiens\software\exiftool.exe")
+EXIFTOOL = Path(r"")
 
 # Default folders — set to Path() to require CLI arguments
 INPUT_DIR  = Path()
