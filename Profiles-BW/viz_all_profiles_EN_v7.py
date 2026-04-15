@@ -47,8 +47,8 @@ from matplotlib.patches import Polygon as MPoly  # type: ignore[import-untyped]
 # ── Paths ──────────────────────────────────────────────────────────────────────
 # DATA_DIR can point to a single .txt file or a directory of files.
 # If it is a directory, all files matching '2025_0111_S*.txt' are processed.
-DATA_DIR = Path(r"d:\Sapiens\2025_111_Heidelberg_LEMS\MEseurments\Vermessungsdaten_Profile-18.12.2025\2025_0111_S1_PR_39.txt")
-OUT_DIR  = Path(r'D:\Sapiens\2025_111_Heidelberg_LEMS\Post-Ex\Profilen-3')
+DATA_DIR = Path(r"")
+OUT_DIR  = Path(r'')
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # ── Global figure / output settings ───────────────────────────────────────────
